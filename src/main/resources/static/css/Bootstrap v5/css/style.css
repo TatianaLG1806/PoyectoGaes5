@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+*{
+	margin: 0;
+}
+
+/*Etiquetas*/
+
+.jumbotron{
+	background: #232752;
+	padding: 8px 8px;
+	color: #f35b04;
+	font-family: 'Tinos', serif;
+	border-bottom: 2px solid #f35b04;
+}
+.jumbotron h1{
+		font-size: 40px;
+}
+
+.jumbotron img{
+	margin-bottom: 15px;
+}
+
+/*header{
+	background: #232752;
+	padding: 0;
+	width: 100%;
+
+}
+header{
+text-align: center;
+
+}
+
+header h1{
+	text-align: center;
+	padding-bottom: 10px;
+	color: #f35b04;
+	font-family: 'Tinos', serif;
+
+}
+
+header img{
+	padding-top: 10px;
+	width: 5%;
+
+}
+
+nav{
+	background: #232752;
+
+}*/
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	display: block;
+	font-size: 18px;
+	font-family: 'Archivo Narrow', sans-serif;
+	
+}
+
+article{
+	display: flex;
+}
+
+
+
+
+/*nav ul li a:hover{
+	background: #f35b04;
+	color: #000;
+}
+*/
+
+
+
+
+
+
+.logo{
+	border-bottom: 2px solid #f35b04;
+}
+
+
+.titulo{
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+	background: #f35b04;
+	background-size: 100% 100%;
+	margin: 0px;
+	padding: 20px;
+}
+
+
+
+/*Cards Categorias*/
+
+.social-box{
+	background-color: #eee;
+}
+.social-box .box{
+
+	color: #232752;
+    background: #FFF;
+    border-radius: 10px; 
+    padding: 40px 10px;
+    margin: 20px 0px;
+    	font-family: 'Archivo Narrow', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color: #4183D7;
+    font-size: 16px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+
+
+/*OFERTAS*/
+
+
+
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px)
+}
+
+.card h5 {
+    overflow: hidden;
+    height: 35px;
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+    color: #232752;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.card-img-top {
+    width: 50%;
+    max-height: 210px;
+    object-fit: contain;
+    padding: 20px
+}
+
+.card h2 {
+    font-size: 1rem
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06)
+}
+
+
+.clearfix{
+	font-size: 22px;
+}
+
+
+
+@media (max-width: 768px) {
+    .card-img-top {
+        max-height: 250px
+    }
+}
+
+
+
+
+/*FOOTER*/
+
+.footer {
+	margin-top: 4px;
+	background: #232752;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 2px solid #FF931E;
+	border-top: 2px solid #FF931E;
+}
+
+.footer h3 {
+	font-family: 'Shippori Antique', sans-serif;
+	border-bottom: 1px solid #FF931E;
+	color: #FF931E;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 17px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #ffddd2;
+}
+.footer ul li a {
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #ffddd2
+}

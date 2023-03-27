@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+*{
+	margin: 0;
+}
+
+/*Etiquetas*/
+
+header{
+	background: #232752;
+	padding: 0;
+	width: 100%;
+
+}
+header{
+text-align: center;
+
+}
+
+header h1{
+	text-align: center;
+	padding-bottom: 10px;
+	color: #f35b04;
+	font-family: 'Tinos', serif;
+
+}
+
+header img{
+	padding-top: 20px;
+	width: 8%;
+
+}
+
+nav{
+	background: #232752;
+	width: 100%;
+   
+ }
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	display: block;
+	font-family: 'Archivo Narrow', sans-serif;
+	
+	
+}
+
+nav ul li a:hover{
+	background: #f35b04;
+	color: #000;
+	text-decoration: none;
+
+
+}
+main{
+	display: flex;
+}
+
+nav h1{
+	background: #7AC943;
+	text-align: center;
+	color: #001219;
+	padding: 15px 5px;
+	font-family: 'Archivo Narrow', sans-serif;
+	
+
+
+}
+
+/* Etiquetas .css:*/
+footer{
+	width: 100%;
+	padding: 1px 0px;
+	margin-top: 6px;
+	background: #232752;
+}
+
+
+footer img{
+	width: 20px;
+}
+
+/*Clases*/
+
+.logo{
+	border-bottom: 2px solid #f35b04;
+}
+.menu{
+	border-bottom: 2px solid #f35b04;
+	}
+
+
+.contImg{
+	background-image: url(../img/Borradordes.jpg);
+	width: 150%;
+	height: 330px;
+    background-size: 100% 100%;
+    padding-top: 15%;
+    text-align: center;
+    border-left: 5px solid #0E0E1B ;
+ 	border-right:  5px solid #0E0E1B;
+
+
+}
+
+.contImg h1{
+	background: #001219;
+	opacity: 0.9;
+	color: #f72585;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.contTexto{
+	background:#F8C68F;
+	width: 100%;
+	text-align: justify;
+	padding:  3% 30px;
+	
+}
+
+.contTexto h1{ 
+	background: #f35b04;
+	text-align: center;
+	color: #001219;
+	padding: 15px 5px;
+	border: 5px solid #0E0E1B;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+ .contTexto ul{
+ 	padding-top: 15px;
+ 	padding-bottom: 10px;
+ 	background: #f35b04;
+ 	margin-bottom: 15px;
+ 	border: 5px solid #0E0E1B;
+ 	font-family: 'Archivo Narrow', sans-serif;
+}
+
+ .contTexto p{
+ 	color: #fffffc;
+ 	background: #312D7C;
+ 	text-align: justify;
+ 	padding: 15px 9px;
+ 	border-left: 5px solid #0E0E1B ;
+ 	border-right:  5px solid #0E0E1B;
+ 	font-family: 'Archivo Narrow', sans-serif;
+ 	 }
+
+.botonCompra{
+	color: #fffffc;
+	text-align: center;
+	background:#312D7C;
+	text-decoration: none;
+	padding: 15px 15px;
+	position: relative;
+	left: 210px;
+	border-radius: 15px;
+	border: 5px solid #0E0E1B;
+	font-family: 'Archivo Narrow', sans-serif;
+
+
+}
+
+.botonCompra:hover{
+	background: #7AC943;
+	font-size: 20px;
+	border: 5px solid #0E0E1B;
+}
+
+.contImg: hover{
+	background: #FF1D25;
+	width: 100%;
+	border: 5px solid #FF931E;
+
+}
+
+/*fotter*/
+
+.contenedor_footer{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	max-width: 1200px;	
+	margin: auto; 
+	margin-top: 30px;
+}
+
+.caja__footer{
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.caja__footer h2{
+	font-family: 'Shippori Antique', sans-serif;
+	margin-bottom: 15px;
+	color: #FF931E;
+	font-weight: 700;
+}
+
+.caja__footer a{
+	font-size: medium;
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;
+	margin-bottom: 20px;
+	color: #ffddd2;
+	font-weight: 1000;
+}
+
+.caja__footer a:hover{
+	opacity: 0.5;
+}
+
+.caja__derechos{
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	padding: 0px 40px;
+}
+
+.caja__derechos p{
+	margin-top: 20px;
+	color: #ffddd2;
+	font-family: 'Arimo', sans-serif;
+
+}
+
+.caja__derechos hr{
+	border: none;
+	height: 1px;
+	background-color: #FF931E;
+}
+
+
+
+
+
+
